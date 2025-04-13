@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book now</title>
+</head>
+<style>
+    .booknow{
+        display: flex;
+        flex-direction: column;
+        height: 460px;
+        width: 425px;
+        align-items: center;
+        background-image:radial-gradient(white,skyblue);
+     
+    }
+    .box{
+        border: none;
+        border-radius: 25px;
+        margin: 5px;
+        padding:2px;
+        font-family: cursive;
+        }
+        #submit{
+            margin: 40px;
+            background-color:crimson;
+            font-weight: bold;
+        }
+</style>
+<body>
+    <div class="booknow" style="text-align: center;">
+            <h1>BOOKING</h1>
+Name:<input type="text" class="box" placeholder="Enter Name">
+Email Address*:<input type="email" class="box" placeholder="Enter Email">
+Phone Number*:<input type="tel" class="box" placeholder="Enter Phone Number">
+Departure Date<input type="date" class="box">
+Return Date:<input type="date" class="box"><br>
+
+
+<input type="submit" value="Book Now" id="submit">
+
+
+    </div>
+</body>
+</html>
